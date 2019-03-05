@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/css/main.css">
+    <title>Сборные грузы</title>
+</head>
+<body>
+<header>
+    <div class="container-fluid">
+        <div class="header__wrap">
+            <div class="toggle_menu">
+                <img src="images/menu_icon_2.png" alt="">
+                <span class="lnr lnr-cross"></span>
+            </div>
+            <div class="d-flex flex-column justify-content-around align-items-start header-logo">
+                <strong><a class="logo" href="#">DF<span class="letter-red">C</span> </a></strong>
+                <small>delivery from china</small>
+            </div>
+            <nav class="head_menu">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li class="menu-item-has-children"><a href="#">Услуги</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Поиск товара и поставщика</a></li>
+                            <li><a href="#">OEM производство</a></li>
+                            <li><a href="#">Таможенная очистка</a></li>
+                            <li><a href="#">Сопровождение на выставках</a></li>
+                            <li><a href="#">Переводчик в Китае</a></li>
+                            <li><a href="#">Шоп-тур в Гуанчжоу</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Оплата</a></li>
+                    <li><a href="#">Товары</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li class="menu-item-has-children"><a href="#">О компании</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Стоимости услуги</a></li>
+                            <li><a href="#">Вопросы и Ответы</a></li>
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="account_panel">
+                <a href="#" class="register">Регистрация</a>
+                <a href="#" class="login">Вход</a>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="mob_menu" style="display: none;">
+        <div class="search_input">
+            <input type="text" name="search" placeholder="Поиск">
+            <button class="submit_btn" type="submit"><span class="lnr lnr-magnifier"></span></button>
+        </div>
+        <div class="lk_panel">
+            <a href="#" class="register">Регистрация</a>
+            <a href="#" class="login">Вход</a>
+        </div>
+
+        <nav class="mobile_menu">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li class="menu-item-has-children"><a href="#">Услуги</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Поиск товара и поставщика</a></li>
+                        <li><a href="#">OEM производство</a></li>
+                        <li><a href="#">Таможенная очистка</a></li>
+                        <li><a href="#">Сопровождение на выставках</a></li>
+                        <li><a href="#">Переводчик в Китае</a></li>
+                        <li><a href="#">Шоп-тур в Гуанчжоу</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Оплата</a></li>
+                <li><a href="#">Товары</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li class="menu-item-has-children"><a href="#">О компании</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Стоимости услуги</a></li>
+                        <li><a href="#">Вопросы и Ответы</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">нОВОСТи</a></li>
+                <li><a href="#">вОПРОС-оТВЕТ</a></li>
+            </ul>
+        </nav>
+
+        <div class="icons_wrap">
+            <a href="#" class="phone_icon"><i class="fas fa-phone"></i></a>
+            <ul class="social_links">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-vk"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+            <a href="#" class="share_icon"><i class="fas fa-share-alt"></i></a>
+        </div>
+    </div>
+
+    <div class="right_panel">
+        <a href="#" class="menu_icon"><img src="images/menu_icon.png" alt=""></a>
+        <a href="#" class="search_icon"><span class="lnr lnr-magnifier"></span></a>
+        <a href="#" class="phone_icon"><i class="fas fa-phone"></i></a>
+        <ul class="social_links">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-vk"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+        <a href="#" class="share_icon"><i class="fas fa-share-alt"></i></a>
+    </div>
+    <div class="login_panel" style="display: none;">
+        <div class="container">
+            <div class="login_panel_content">
+                <div class="login_panel_left">
+                    <div class="login_panel_title">Аккаунт</div>
+                </div>
+                <div class="login_panel_right">
+                    <div class="login_panel_title">Мой аккаунт</div>
+
+                    <form method="post">
+                        <div class="input_control">
+                            <input type="email" name="Email" placeholder="Введите ваш E-mail" required="">
+                        </div>
+                        <div class="input_control">
+                            <input type="password" name="Pass" placeholder="пароль" required="">
+                            <a href="#" class="forgot_pass">Забыл пароль</a>
+                        </div>
+                        <div class="buttons_wrap">
+                            <button class="submit_btn" type="submit">Войти</button>
+                            <a href="#" class="reg_link">зарегистрироваться</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="login_panel_close"><span class="lnr lnr-cross"></span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid col-xl-11 mt-2">
+        <nav class="breadcrumb-container" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Главная</a></li>
+                <li class="breadcrumb-item breadcrumb-active" aria-current="page">Сборные грузы</li>
+            </ol>
+        </nav>
+        <section>
+            <div class="text-container">
+                <h1 class="title">Сборные грузы</h1>
+                <p class="second-text mt-5">
+                    Большинство перевозчиков гарантируют качественную и быструю доставку грузов из Китая. Отправка контейнерных партий товара от одного
+                    производителя, по плечу крупным закупщикам. Чаще отправления формируются из небольших партий от разных производителей, либо от
+                    одного производителя, но для нескольких получателей находящихся по маршруту следования контейнера. Такой груз называется <abbr>сборным</abbr>.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="container mt-5 p-0 p-md-5">
+                <div class="row no-gutters">
+                    <div class="col-12 d-block d-md-flex flex-row justify-content-around">
+                        <div class="mr-5 d-md-flex d-none align-items-center"><img class="" src="images/consol.png" alt=""></div>
+                        <div class="d-flex d-md-none">
+                            <div class="mr-md-5 mr-1 d-flex align-items-center"><img class="responsive" src="images/consol.png" alt=""></div>
+                            <div class="text-container d-flex align-items-center">
+                                <p class="second-title">Сборный груз помогает оптимизировать затраты на доставку товара.</p>
+                            </div>
+                        </div>
+                        <div class="h-100 d-flex flex-column justify-content-md-center justify-content-sm-start mt-md-0 mt-3">
+                            <div class="text-container d-none d-md-block">
+                                <p class="second-title">Сборный груз помогает оптимизировать затраты на доставку товара.</p>
+                            </div>
+                            <div class="d-flex flex-column justify-content-md-between justify-content-center flex-lg-row">
+                                <div class="text-container">
+                                    <p class="second-text">
+                                        Подготовка к отправке сборного груза требует проведения целого ряда
+                                        мероприятий, выполнение которых вы можете поручить нашей
+                                        компании.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid p-0 mt-5">
+                <div class="row translator-container p-2 p-md-5">
+                    <div class="col-12 d-block d-md-flex flex-row-reverse justify-content-center">
+                        <div class="mr-5 d-md-flex d-none align-items-center"><img class="" src="images/deliver.png" alt=""></div>
+                        <div class="d-flex flex-row-reverse d-md-none">
+                            <div class="d-flex align-items-center"><img class="responsive" src="images/deliver.png" alt=""></div>
+                            <div class="text-container d-flex align-items-center">
+                                <p class="second-title">Мы можем предложить вам несколько вариантов доставки:</p>
+                            </div>
+                        </div>
+
+                        <div class="d-sm-flex d-md-block align-items-start">
+                            <div class="text-container d-none d-md-block">
+                                <p class="second-title">Мы можем предложить вам несколько вариантов доставки:</p>
+                            </div>
+                            <div class="d-flex flex-column justify-content-md-between justify-content-center flex-lg-row">
+                                <div class="list-container">
+                                    <ul class="list justify-content-center mt-5 mt-md-0 mb-0 mr-lg-5 mr-0">
+                                        <li>
+                                            <div class="text-container">
+                                                <p class="second-text">Экспресс 1-3 дня. От 25$/кг  2% (страховка)</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="text-container">
+                                                <p class="second-text">Авиа 8-14 дней. От 7,5$/кг   2%</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="text-container">
+                                                <p class="second-text">Авто 18-24 дней. От 4.5$/кг  1%</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="text-container">
+                                                <p class="second-text">Ж/Д 23-28 дней От 2.5$/кг   1%</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="text-container">
+                                                <p class="second-text">Море 35-50 дней. От 0,5$/кг  0,5%</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="text-container mt-5">
+                <p class="second-title">
+                    Мы выработали схему, которая позволяет нашим клиентам экономить время и деньги:
+                </p>
+                <div class="mt-4 adv-container">
+                    <div class="image-container mr-0 mr-md-4">
+                        <div style="background-image: url('images/car.png');" class="adv-image wide-img adv-center"></div>
+                    </div>
+                    <div class="list-container">
+                        <ul class="list">
+                            <li>
+                                <div class="text-container">
+                                    <p class="second-text">
+                                        Оформление заявки на предоставление услуги.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="text-container">
+                                    <p class="second-text">
+                                        Заключение договора на перевозку и расчёт стоимости доставки.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="text-container">
+                                    <p class="second-text">
+                                        Доставка товара на наш склад.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="text-container">
+                                    <p class="second-text">
+                                        Сбор и хранение грузов на нашем складе для формирования отправки.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="text-container">
+                                    <p class="second-text">
+                                        Переупаковка.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="text-container">
+                                    <p class="second-text">
+                                        Отправка получателю.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="text-container">
+                                    <p class="second-text">
+                                        Таможенная очистка.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid p-0 mt-5">
+                <div class="row translator-container p-2 p-md-5">
+                    <div class="col-12 d-block d-md-flex flex-row-reverse justify-content-center">
+                        <div class="mr-5 d-md-flex d-none align-items-center"><img class="" src="images/notebook.png" alt=""></div>
+                        <div class="d-flex flex-row-reverse d-md-none">
+                            <div class="d-flex align-items-center"><img class="responsive" src="images/notebook.png" alt=""></div>
+                            <div class="text-container d-flex align-items-center">
+                                <p class="second-title">Весь комплекс услуг предоставляется на основе договора с оплатой по факту доставки.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-sm-flex d-md-block align-items-start">
+                            <div class="text-container d-none d-md-block">
+                                <p class="second-title">Весь комплекс услуг предоставляется на основе договора с оплатой по факту доставки.</p>
+                            </div>
+                            <div class="d-flex flex-column justify-content-md-between justify-content-center flex-lg-row">
+                                <div class="text-container">
+                                    <p class="second-text mt-4">
+                                        Наши сотрудники не первый год занимаются формированием сборных грузов и отправкой
+                                        их из Китая. У нас налаженные связи с компаниями перевозчиками, поставщиками и наши
+                                        специалисты имеют большой опыт оформления таможенной документации.
+                                    </p>
+                                    <p class="second-text mt-4">
+                                        Всё это помогает нам выдерживать высокие стандарты обслуживания.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="text-container mt-5">
+                <p class="second-title">
+                    Мы выработали схему, которая позволяет нашим клиентам экономить время и деньги:
+                </p>
+                <div class="mt-4 adv-container">
+                    <div class="image-container mr-0 mr-md-4">
+                        <div style="background-image: url('images/deliver3.png');" class="adv-image wide-img adv-center"></div>
+                    </div>
+                    <div class="list-container">
+                        <ul class="list">
+                            <li>
+                                <div class="text-container">
+                                    <p class="second-text">
+                                        Сбор груза у производителей, обеспечение транспортом, складом и оформление
+                                        документации.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="text-container">
+                                    <p class="second-text">
+                                        Разработку оптимального маршрута, гарантирующего снижение транспортных
+                                        расходов.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="text-container">
+                                    <p class="second-text">
+                                        Сохранность груза за счёт надёжной упаковки, правильной загрузки и
+                                        оформления страховки.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="text-container">
+                                    <p class="second-text">
+                                        Прозрачность прохождения маршрута за счёт возможности отследить нахождение
+                                        груза в любой точке посредством трек-кода или номера накладной.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="text-container">
+                                    <p class="second-text">
+                                        Оптимальную цену транспортировки и предположительное время доставки.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="text-container mt-4 mb-5">
+                <p class="text-alert text-center">По всем вопросам, касательно формирования, оформления и доставки сборных грузов, ответит наш менеджер ХХХХХХХ.</p>
+            </div>
+        </section>
+    </div>
+</main>
+<footer>
+    <div class="container">
+        <div class="footer__columns">
+            <div class="contacts_column">
+                <div class="d-flex flex-column footer-logo">
+                    <strong><a class="logo" href="#">DF<span class="letter-red">C</span> </a></strong>
+                    <small>delivery from china</small>
+                </div>
+                <div class="footer_contact_item"><i class="fas fa-map-marker-alt"></i> г. Москва,  ул. Кирова, 126</div>
+                <a href="tel:+79225551234" class="footer_contact_item"><i class="fas fa-phone"></i> 7 (922) <b>555 12 34</b></a>
+                <a href="tel:+79692561177" class="footer_contact_item"><i class="fas fa-phone"></i> 7 (969) <b>256 11 77</b></a>
+                <a href="mailto:dfc.info@gmail.com" class="footer_contact_item"><i class="fas fa-envelope"></i> dfc.info@gmail.com</a>
+            </div>
+            <div class="contacts_column">
+                <div class="footer_title">Меню</div>
+                <ul class="footer_menu">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Оплата</a></li>
+                    <li><a href="#">Товары</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Вопрос-ответ</a></li>
+                    <li><a href="#">Вход в личный кабинет</a></li>
+                </ul>
+            </div>
+            <div class="contacts_column">
+                <div class="footer_title">Услуги</div>
+                <ul class="footer_menu">
+                    <li><a href="#">Поиск товара и поставщика</a></li>
+                    <li><a href="#">Контроль качества товаров</a></li>
+                    <li><a href="#">OEM ODM производство</a></li>
+                    <li><a href="#">Сопровождение ВЭД</a></li>
+                    <li><a href="#">Переводчик в Китае</a></li>
+                    <li><a href="#">Шоп-тур в Гуанчжоу</a></li>
+                </ul>
+            </div>
+            <div class="contacts_column">
+                <div class="footer_title">Мы в соцсетях</div>
+                <ul class="footer_social_list">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-vk"></i> Vkontakte</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="w-100 lower-footer pt-4 pb-4">
+    <div class="container">
+        <div class="d-flex justify-content-between">
+            <p>2018 DELIVERY FROM CHINA</p>
+            <p><a href="#">Условия использования</a></p>
+        </div>
+    </div>
+</div>
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+
+        $('.toggle_menu').on("click", function(e) {
+            $(this).toggleClass("active");
+            $(".mob_menu").slideToggle();
+            return false;
+        });
+
+        $('.menu-item-has-children >a').on("click", function(e) {
+            if ( $(window).width() < 992 ) {
+                $(this).parent().toggleClass("active_menu_item");
+                $(this).parent().find(".sub-menu").slideToggle();
+                $(this).parent().siblings().slideToggle();
+                return false;
+            }
+        });
+
+        $('.login').on("click", function(e) {
+            $(".login_panel").show();
+            $(".mob_menu").hide();
+            $(".toggle_menu").removeClass("active");
+            return false;
+        });
+
+        $('.login_panel_close').on("click", function(e) {
+            $(".login_panel").hide();
+            return false;
+        });
+
+    });
+</script>
+</body>
+</html>
